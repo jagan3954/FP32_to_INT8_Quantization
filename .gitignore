@@ -3,6 +3,7 @@ vivado/vivado.cache/
 vivado/vivado.hw/
 vivado/vivado.ip_user_files/
 vivado/vivado.sim/
+vivado/vivado.runs/
 vivado/.Xil/
 
 # Vivado logs, journals, and temporary files

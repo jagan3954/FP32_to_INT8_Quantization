@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="skywalker" Host="fedora" Pid="166875" HostCore="12" HostMemory="15601580">
-    </Process>
-</ProcessHandle>
