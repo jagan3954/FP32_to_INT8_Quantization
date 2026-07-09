@@ -1,0 +1,29 @@
+# Vivado auto-generated directories
+vivado/vivado.cache/
+vivado/vivado.hw/
+vivado/vivado.ip_user_files/
+vivado/vivado.sim/
+vivado/.Xil/
+
+# Vivado logs, journals, and temporary files
+*.log
+*.jou
+*.pb
+*.str
+*.os
+*~
+
+# Hardware build outputs (Bitstreams and debug probes)
+bitfiles/
+*.bit
+*.bin
+*.ltx
+
+# Python runtime artifacts
+python/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system artifacts
+.DS_Store
