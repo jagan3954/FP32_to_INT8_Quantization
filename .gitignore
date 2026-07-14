@@ -1,30 +1,30 @@
-# Vivado auto-generated directories
-vivado/vivado.cache/
-vivado/vivado.hw/
-vivado/vivado.ip_user_files/
-vivado/vivado.sim/
-vivado/vivado.runs/
-vivado/.Xil/
-
-# Vivado logs, journals, and temporary files
-*.log
+# Vivado session logs / journals
+vivado.jou
+vivado.log
 *.jou
-*.pb
-*.str
-*.os
-*~
+*.log
 
-# Hardware build outputs (Bitstreams and debug probes)
-bitfiles/
-*.bit
-*.bin
-*.ltx
+# Vivado generated project internals
+vivado/*.cache/
+vivado/*.hw/
+vivado/*.ip_user_files/
+vivado/*.runs/
+vivado/*.sim/
+vivado/*.srcs/sources_1/bd/**/hdl/
+vivado/.Xil/
+vivado/*.str
 
-# Python runtime artifacts
-python/__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Simulation waveform databases
+*.wdb
+*.vcd
 
-# Operating system artifacts
+# Editor / OS cruft
+.vscode/
+*.swp
 .DS_Store
+
+# --- Bitstreams ---
+# Uncomment the next line if you don't want generated bitfiles tracked
+# in git (they're rebuildable from source and can be large):
+# bitfiles/*.bit
+# bitfiles/*.bin
