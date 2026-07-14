@@ -68,7 +68,13 @@ def hardware_exact_quantize_pipeline(float_tensor):
 
 if __name__ == "__main__":
     # Your Vivado simulation path from the error log
-    vivado_sim_path = "/home/skywalker/rtl/rtl-projects/quantixation/vivado/vivado.sim/sim_1/behav/xsim/"
+   
+   
+   
+   # vivado_sim_path = "/home/skywalker/rtl/rtl-projects/quantixation/vivado/vivado.sim/sim_1/behav/xsim/"
+    vivado_sim_path = "/home/skywalker/rtl/rtl-projects/quantixation/python"
+    
+    
     
     # Let's create an input test tensor (exactly 64 values long to match GOLDEN_TOKEN_COUNT in testbench)
     test_tensor = [0.12, -0.43, 0.0, 0.0, 0.0, 0.99, -1.2, 0.0] * 8
