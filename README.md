@@ -1,4 +1,4 @@
-# Quantixation
+# Quantization
 
 This repository contains the RTL and test environment for "Quantixation," a hardware quantization pipeline developed for an FPGA hackathon. The design takes a stream of 32-bit fixed-point data, computes quantization parameters, performs symmetric INT8/INT4 quantization, and finally compresses the output stream using Zero Run-Length Encoding (ZRLE). The project targets a PYNQ-Z2 board, based on the Xilinx Zynq-7000 SoC (specifically, the `xc7z020clg400-1` part).
 
