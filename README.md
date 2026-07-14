@@ -106,7 +106,6 @@ This project uses a standard Vivado project-based flow.
 * **Multiple Golden Models:** The `python/` directory contains several scripts (`a.py`, `b.py`, `quant_golden.py`) for modeling the pipeline. `quant_golden.py` is the most accurate and is documented as the bit-for-bit reference. The others may have been for initial exploration and could produce different results.
 * **Hardcoded Paths:** The script `a.py` contains a hardcoded path variable `vivado_sim_path`. While it points to the `python/` directory, this indicates a potential for brittle file path dependencies if not managed carefully.
 * **Build Status:** This README does not track the live build status. Check the Vivado project status or `vivado.log` for the most recent synthesis and implementation results.
+## OUTPUT:
+<img width="1668" height="929" alt="image" src="https://github.com/user-attachments/assets/7176e677-f669-4525-a551-fc2c1c9e6eb2" />
 
-## License / Attribution
-
-_TODO: add license information._
