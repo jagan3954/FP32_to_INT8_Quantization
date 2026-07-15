@@ -108,4 +108,6 @@ This project uses a standard Vivado project-based flow.
 * **Build Status:** This README does not track the live build status. Check the Vivado project status or `vivado.log` for the most recent synthesis and implementation results.
 ## OUTPUT:
 <img width="1668" height="929" alt="image" src="https://github.com/user-attachments/assets/7176e677-f669-4525-a551-fc2c1c9e6eb2" />
+### PYTHON OUTPUT:(for hex file and comparison)
+<img width="1316" height="259" alt="image" src="https://github.com/user-attachments/assets/a6872aa7-70cc-49bb-8921-f6161e8c612d" />
 
